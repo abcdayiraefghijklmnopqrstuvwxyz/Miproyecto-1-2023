@@ -9,13 +9,13 @@
 }
 #cuerpoContenido{
     width: 100%;
-  
     background-color:  #d3ee9f;
     display:flex ;
     padding-top:50px ;
 }
 footer{
     width: 100%;
+    background-color:#7b9e35;
     
 }
 #cabeceraImagenNombre{
@@ -27,7 +27,7 @@ footer{
     text-align: right;
 }
 ul li{
-color:#550101 ;    
+border-right: solid 2px  #550101 ;    
 text-decoration:none ;
 display:inline ;
 }
@@ -37,7 +37,6 @@ text-decoration:none ;
 text-transform:uppercase ;
 font-weight:bold ;
 padding:5px ;
-border-right:solid 2px #550101 ;
 }
 ul li a:hover{
 color: white;             
@@ -79,6 +78,7 @@ text-decoration:underline dashed ;
 }
 #cuerpoDetalle{
    flex:60% ; 
+   padding: 40px;
 }
 h1{
     text-align: center;
@@ -92,6 +92,7 @@ h1{
     border-radius:20px ;
     width:80% ;
     margin: auto;
+    border-radius: 10px;
 }
 img{
     border-radius:10px ;
@@ -122,6 +123,7 @@ img{
     background-size:28px ;
     background-repeat: no-repeat ;
     padding:20px 20px 20px 35px;  
+    width:150px ;
     background-position:left 5px center ;
 
 }
@@ -131,5 +133,44 @@ img{
 .disenoBoton:hover{
     opacity:50% ;
     cursor: pointer;
-
+}
+ul li:last-child{
+    border-right: none;
+}
+#menuFooter{
+    flex:20px;
+}
+nav a{
+    display:block ;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+nav a:hover{
+    color: #550101;
+    font-size: 15px;
+}
+#contenidoFooter{
+    flex: 40px;
+    text-align: justify;
+}
+#socialFooter{
+    flex: 40%;
+}
+.socialesFooter li{
+    border: none;
+    text-align: center;
+}
+li img{
+    width: 5%;
+    padding: 10px;
+}
+li img:hover{
+    opacity: 60%;
+    cursor: pointer;
+}
+#marcoFooter{
+    display: flex;
+    padding: 50px;
 }
